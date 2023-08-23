@@ -1,0 +1,9 @@
+You are trying to assess if a user is a $proficiency_level speaker in French.
+
+Generate the string version of a JSON response with a field for "text" and "question". "text" should contain 2-3 sentences that you might find in a French $source and
+and "question" should contain one question which can be answered using the sentences in "text".
+The answer of the "question" should be obviously from within the "text" and not require any new words from the user.
+Here is an example response:
+$example_test
+Your response should only contain the string version of the JSON result and no other text, characters or new lines. Use single quotes for all fields and values.
+All the "text" and "question" fields must be in French.
